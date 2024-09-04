@@ -77,7 +77,7 @@
     width: 430px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 4000px;
+    grid-template-columns: 430px;
     grid-template-rows: 65px 885px;
     grid-template-areas: "one""two";
     position: relative;   
@@ -220,7 +220,7 @@ font-size: 21px;
     width: 430px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 415px;
+    grid-template-columns: 430px;
  grid-template-rows: 65px 460px;
     grid-template-areas: "one""two";
     position: relative;   
@@ -749,3 +749,13 @@ top: 200px;
       font-size:22px;
     }
 }
+@media (max-width: 300px) and (max-height: 490px){
+  .hgz{
+    bottom: 48px;
+  }
+  .hgzbio{
+    bottom: -195px;
+    font-size:22px;
+  }
+}
+
