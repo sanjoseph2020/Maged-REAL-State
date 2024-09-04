@@ -77,7 +77,7 @@
     width: 430px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 430px;
+    grid-template-columns: 4000px;
     grid-template-rows: 65px 885px;
     grid-template-areas: "one""two";
     position: relative;   
@@ -97,7 +97,7 @@ background-color: snow;
 .main{
 list-style: none;
 display: flex;
-top: 27.5px;
+top: 21px;
 position: absolute;
 gap: 90px;
 text-decoration: none;
@@ -105,7 +105,7 @@ text-decoration: none;
 .main li{
 
     color: aliceblue;
-    font-size: 23px;
+    font-size: 25px;
     position: relative;
     user-select: none;
 } 
@@ -136,7 +136,7 @@ text-decoration: none;
    right: 10px;
 font-size: 21px;
 }
-@media (max-width: 860px) and (max-height: 950px){
+@media (max-width: 460px) and (max-height: 950px){
 .button-85 {
   padding: 0.6em 2em;
   border: none;
@@ -220,7 +220,7 @@ font-size: 21px;
     width: 430px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 430px;
+    grid-template-columns: 415px;
  grid-template-rows: 65px 460px;
     grid-template-areas: "one""two";
     position: relative;   
@@ -342,7 +342,7 @@ text-decoration: none;
   animation-delay: 0s;
 }
 .hgz{
-  bottom: 225px;
+  bottom: 227px;
 }
 .hgz::before{
  left: 283px;
@@ -384,7 +384,7 @@ span{
 .bio{
   font-weight: bold;
   font-size: 16px;
-  text-wrap: wrap;
+  text-wrap: nowrap;
   text-align: center;
 }
 .flats div a{
@@ -701,4 +701,25 @@ position: relative;
 
 }
 
+}
+@media (max-width: 387px) and (max-height: 780px){
+  .child-three{
+font-size: 18px;
+top: 200px;
+}
+.hgz{
+  bottom: 155px;
+}
+.hgzbio{
+  bottom: 40px;
+
+}
+}
+@media (min-width: 390px) and (max-height: 844px){
+  .hgz{
+    bottom: 180px;
+  }
+  .hgzbio{
+    bottom: 155px;
+  }
 }
